@@ -196,3 +196,97 @@ p {
 #imgDesc p {
   margin-right: 15rem;
 }
+
+#section4 {
+  background-color: rgb(239, 227, 236);
+  padding: 3rem;
+}
+
+.imgBox {
+  display: flex;
+  justify-content: center;
+}
+
+.imgBox div {
+  width: 15rem;
+  height: 30rem;
+  margin-right: 3rem;
+  display: inline-block;
+  transition: all .2s ease-in-out;
+}
+
+
+.containBox {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.containBox p {
+   position: absolute;
+   text-align: center;
+   top: 200px;
+   margin-left: 2rem;
+   width: 80%;
+   color: white;
+   font-size: 3rem;
+   visibility: hidden;
+   background: black;
+   opacity: 0.8;
+}
+
+
+
+#imgBox1 {
+  background-image: url('https://overthemoon.com/wp-content/uploads/2019/07/ab2494bc-dana-aidekman-david-putnam-43.jpg');
+  background-position: 2rem center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all()
+}
+
+
+#containBox1:hover #imgBox1 {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  transform: scale(1.1);
+}
+
+#containBox1:hover p {
+  visibility: visible;
+}
+
+
+#imgBox2 {
+  background-image: url('https://overthemoon.com/wp-content/uploads/2019/07/ab2494bc-dana-aidekman-david-putnam-43.jpg');
+  background-position: -15rem center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#containBox2:hover #imgBox2 {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  transform: scale(1.1);
+}
+
+#containBox2:hover p {
+  visibility: visible;
+}
+
+#imgBox3 {
+  background-image: url('https://overthemoon.com/wp-content/uploads/2019/07/ab2494bc-dana-aidekman-david-putnam-43.jpg');
+  background-position: -30rem center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#containBox3:hover #imgBox3 {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  transform: scale(1.1);
+}
+
+#containBox3:hover p {
+  visibility: visible;
+}
