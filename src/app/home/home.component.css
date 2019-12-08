@@ -30,6 +30,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   height: 40rem;
+  padding-bottom: 5rem;
 }
 
 .banner #title {
@@ -121,6 +122,7 @@ p {
 
 #section3 {
   text-align: center;
+  padding: 3rem;
 }
 
 .imageSteps {
