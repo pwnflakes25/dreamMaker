@@ -126,6 +126,15 @@ p {
     margin-left: 2.5rem;
   }
 
+   #section4 {
+     max-width: 100%;
+     overflow-x: hidden;
+   }
+
+  .imgBox div {
+    max-width: 8rem;
+    margin-right: 0.5rem;
+  }
 }
 
 .banner p {
@@ -205,6 +214,7 @@ p {
 .imgBox {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .imgBox div {
@@ -228,7 +238,7 @@ p {
    margin-left: 2rem;
    width: 80%;
    color: white;
-   font-size: 3rem;
+   font-size: 3vw;
    visibility: hidden;
    background: black;
    opacity: 0.8;
