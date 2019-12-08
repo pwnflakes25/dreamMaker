@@ -95,47 +95,7 @@ p {
     transform: scale(0.1, 1);
 }
 
-@media only screen and (max-width: 768px) {
-  .banner {
-    background-position: -20rem -5rem;
-    margin-bottom: -5rem;
-  }
 
-  #title {
-    margin: 0 auto;
-  }
-
-   .box-1 {
-     margin-top: 2rem;
-   }
-
-  .banner p {
-    margin-top: 2rem;
-  }
-
-  #section2 #text {
-    margin-bottom: 5rem;
-  }
-
-  .imageSteps {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 2.5rem;
-  }
-
-   #section4 {
-     max-width: 100%;
-     overflow-x: hidden;
-   }
-
-  .imgBox div {
-    max-width: 8rem;
-    margin-right: 0.5rem;
-  }
-}
 
 .banner p {
   text-align: center;
@@ -220,7 +180,7 @@ p {
 .imgBox div {
   width: 15rem;
   height: 30rem;
-  margin-right: 3rem;
+  margin-right: 2rem;
   display: inline-block;
   transition: all .2s ease-in-out;
 }
@@ -238,7 +198,7 @@ p {
    margin-left: 2rem;
    width: 80%;
    color: white;
-   font-size: 3vw;
+   font-size: 3.2vw;
    visibility: hidden;
    background: black;
    opacity: 0.8;
@@ -299,4 +259,64 @@ p {
 
 #containBox3:hover p {
   visibility: visible;
+}
+
+/* Below is Responsive Code */
+@media only screen and (max-width: 768px) {
+  .banner {
+    background-position: -20rem -5rem;
+    margin-bottom: -5rem;
+  }
+
+  #title {
+    margin: 0 auto;
+  }
+
+   .box-1 {
+     margin-top: 2rem;
+   }
+
+  .banner p {
+    margin-top: 2rem;
+  }
+
+  #section2 #text {
+    margin-bottom: 5rem;
+  }
+
+  .imageSteps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 2.5rem;
+  }
+
+   #section4 {
+     max-width: 100%;
+     overflow-x: hidden;
+     margin: 0 auto;
+   }
+
+  .imgBox div {
+    max-width: 5rem;
+  }
+
+  #imgBox1  {
+    background-position: -10rem center;
+  }
+
+  #imgBox2 {
+    background-position: -15rem center;
+  }
+
+  #imgBox3 {
+    background-position: -20rem center;
+  }
+
+  .containBox p {
+    margin-left: 1rem;
+  }
+
 }
